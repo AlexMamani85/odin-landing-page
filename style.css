@@ -15,24 +15,17 @@ header{
     background-color: #1f2937;
 
     padding: 30px 50px;
-}
-
-.logo{
-    display: flex;
-    margin: auto 0;
-    font-weight: bolder;
-}
-
-
-ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-.TwoCards{
-    display: flex;
-    flex-direction: row;
-    padding: 30px 50px;
-
+    
+    &   .logo{
+        display: flex;
+        margin: auto 0;
+        font-weight: bolder;
+    }
+    
+    & ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
 }
