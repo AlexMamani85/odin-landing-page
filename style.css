@@ -79,7 +79,7 @@ header{
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
-            
+
             & .card{
 
 
@@ -123,9 +123,34 @@ header{
     }
 }
 
+.content4{
+    padding: 60px 150px;  
+    & .wrapper{
+        color: white;
+        padding: 30px 60px;  
+        background-color: #3882F6;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        & .content{
+            & .title{
+                font-weight: bold;
+            }
+            &.text{
+                color: white;
+            }
+        }
+        & .button{
+            display: flex;
+            justify-content:center;
+            align-items: center;
 
-button{
-    
+        }
+    }
+}
+
+button{    
+    color: white;
     background-color: #3882F6;
     border-radius: 10px;
     height: 30px;
