@@ -12,6 +12,7 @@ header{
     justify-content: space-between;
     align-content: center;
     border: orangered 1px solid;
+    color: white;
     background-color: #1f2937;
 
     padding: 30px 50px;
@@ -33,7 +34,9 @@ header{
 
 
 .content1{
-    
+    color: white;
+    background-color: #1f2937;
+
     & .TwoCards{
         display: flex;
         flex-direction: row;
@@ -57,6 +60,47 @@ header{
     }
 }
 
+.content2{
+    border: red 1px solid;
+
+    & .wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 50px;  
+        
+        & .title{
+            font-weight: bolder;
+            font-size: 2rem;
+            margin: 0 auto;
+            padding: 30px 0;
+        }
+
+        & .cardsWrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+            & .card{
+
+
+                & .box{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 10px;
+                    border: #566787 3px solid;
+                    margin: 0 auto;
+                }
+
+                & .text{
+                    font-size: 1rem;
+                    width: 150px;
+                }
+            }
+
+        }
+    }
+
+} 
 
 button{
     
